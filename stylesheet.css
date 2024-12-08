@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    max-width: 1120px;
+    width: 72%;
+    justify-content: space-around;
+    display: flex;
+    margin: 40px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.img-1 {
+    background-image: url(https://css-task-08.netlify.app/img/ThinkPad.webp);
+    width: 330px;
+    height: 255px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.box-1 {
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 3px;
+    width: 400px;
+    padding: 20px;
+    align-items: center;
+    cursor: grab;
+}
+
+.box-1:hover {
+    transform: scale(1.05);
+}
+
+.h2 {
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+}
+
+.p2 {
+    color: #b12704;
+    font-family: "Lato", sans-serif;
+}
+
+.p3 {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(218, 228, 228);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+    margin-right: 15px;
+}
+
+.a2 {
+    font-size: 12px;
+    font-style: italic;
+    color: black;
+}
+
+.img-2 {
+    background-image: url(https://www.luluhypermarket.com/cdn-cgi/image/f=auto/medias/1200Wx1200H-null?context=bWFzdGVyfGltYWdlc3wxMzY0MTd8aW1hZ2UvanBlZ3xhR1UxTDJobU1pOHhOelEwTURFMU1UY3pNakkxTkM4eE1qQXdWM2d4TWpBd1NGOXVkV3hzfDQ0NTg3ZjkxOWJmMzYyNzBhNjZhNmZhZTkxODY3OGFkN2NiZThlOTQ5NTZlYWU1NDVmNzZkODRjYTJlMWQ5Mzg);
+    width: 330px;
+    height: 255px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.box-2 {
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 400px;
+    padding: 20px;
+    cursor: grab;
+
+}
+
+.box-2:hover {
+    transform: scale(1.05);
+
+}
+
+.h2 {
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+}
+
+.p2 {
+    color: #b12704;
+    font-family: "Lato", sans-serif;
+}
+
+.p3 {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(236, 234, 234);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+    gap: 30px;
+    font-weight: 600;
+}
+
+.a2 {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+}
